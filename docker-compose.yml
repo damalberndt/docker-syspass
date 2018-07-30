@@ -5,8 +5,8 @@ services:
     image: nuxsmin/docker-syspass:latest
     restart: always
     ports:
-      - "80:80"
-      - "443:443"
+      - "8082:80"
+#      - "443:443"
     links:
       - db
     volumes:
